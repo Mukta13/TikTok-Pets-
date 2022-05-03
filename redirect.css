@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+
+
+.topContainer{
+margin-bottom: 14%;
+}
+
+.ttPets{
+  font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  text-align: center;
+}
+
+.all-content{
+font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.continue{
+    margin-top: 60px;
+}
+
+.change-color{
+  color: rgba(238, 29, 82, 0.9);
+}
+
+button {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(238, 29, 82, 0.9);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  
+
+}
+
+@media only screen and  (max-width: 900px){
+
+    .topContainer{
+        margin-bottom: 18%;
+    }
+
+  all-content{
+    font-size: 40px
+  }
+
+}
+
+@media only screen and  (max-width: 580px){
+
+    .topContainer{
+        margin-bottom: 22%;
+    }
+  all-content{
+    font-size: 36px
+  }
+
+}
